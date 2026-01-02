@@ -14,7 +14,7 @@ ACCOUNTS = [
     },
 
       {
-        "NAME": "Chutiya",
+        "NAME": "Chuiya",
         "JSON_URL": "https://gist.githubusercontent.com/h78man99-a11y/7d2266f18c9c43ba888830f51cb98e8f/raw/4ee0b19a90c3055f6b4ff7f0348355f8b601815e/adba.json",
         "FIREBASE_KEY": "AIzaSyBBK7rf67OjPHTEVNRWjFglPMKTF4Ze2kQ",
         "PROJECT_ID": "cash-romeo",
@@ -23,4 +23,5 @@ ACCOUNTS = [
         "SPOT_ID": "2759511"
       }
 ]
+
 
