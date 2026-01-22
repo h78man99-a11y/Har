@@ -14,8 +14,8 @@ import (
 
 // --- CONFIGURATION ---
 const (
-	API_URL        = "https://api.india.in/rilfnlwebservices/v2/rilfnl/users/manishisjh2@gmail.com/carts/SH7315703937/vouchers"
-	TOTAL_TO_CHECK = 50000
+	API_URL        = "https://api.sheinindia.in/rilfnlwebservices/v2/rilfnl/users/manishisjh2@gmail.com/carts/SH7315703937/vouchers"
+	TOTAL_TO_CHECK = 500000
 	CONCURRENCY    = 10
 	
 	// TELEGRAM INFO
@@ -27,7 +27,7 @@ var headers = map[string]string{
 	"Authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJzaGVpbl9tYW5pc2hpc2poMkBnbWFpbC5jb20iLCJwa0lkIjoiYWQyZDk0ZWEtMjBiMi00YWNmLWI3MjItOTZlNjQ5NzY4OGYzIiwiY2xpZW50TmFtZSI6InRydXN0ZWRfY2xpZW50Iiwicm9sZXMiOlt7Im5hbWUiOiJST0xFX0NVU1RPTUVSR1JPVVAifV0sIm1vYmlsZSI6Ijc5NzMzNjYzOTgiLCJ0ZW5hbnRJZCI6IlNIRUlOIiwiZXhwIjoxNzcxNTgxNDQ0LCJ1dWlkIjoiYWQyZDk0ZWEtMjBiMi00YWNmLWI3MjItOTZlNjQ5NzY4OGYzIiwiaWF0IjoxNzY4OTg5NDQ0LCJlbWFpbCI6Im1hbmlzaGlzamgyQGdtYWlsLmNvbSJ9.mvm2vKeeoK-_qJ0dBGbsIldXLzfeBdj9lBYxH53r90Z4aU1G2hLJWJ7NsZlmyho2MIrYxpgOd2ahpZgD3wAFg8GdQTA0uv8_DxSoQfRQCCIfFSf3ZpFdScWDDJVOFtw1gzzGijGugyA0btZx6vNsPFL53HcTffb7tqDMvyG_qmBdEoIMxEMBJoAIaDrp2c8meLY51BbatloCqdaPSgjK4euqo_wf5lck9lyXirKUVJKzrXBSncAu8hbtT5RxDJ-RYW4AFS_jOVU1SsCUZJ5TDZRqLxhN1UBekUoq4PZMuBaV5hJ8cFgRlJlsGiXALje4vHcl0CWGoqLed7rRqd4h1w",
 	"Accept":        "application/json",
 	"User-Agent":    "Android",
-	"X-TENANT-ID":   "INDIA",
+	"X-TENANT-ID":   "SHEIN",
 	"Content-Type":  "application/x-www-form-urlencoded",
 }
 
